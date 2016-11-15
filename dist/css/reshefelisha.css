@@ -1,0 +1,87 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+ 
+body {
+  background-color: #f8f8f8;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#wrapper {
+  width: 100%;
+}
+#page-wrapper {
+  padding: 0 15px;
+  min-height: 568px;
+  background-color: white;
+}
+.sidebar {
+  margin-top:20px;
+}
+@media (min-width: 768px) {
+  #page-wrapper {
+    position: inherit;
+    margin: 0 0 0 280px;
+    padding: 0 30px;
+    border-left: 1px solid #e7e7e7;
+  }
+  
+  .sidebar {
+    z-index: 1;
+    position: absolute;
+    width: 250px;
+  }
+}
+.sidebar .sidebar-nav.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar ul {
+  width: 250px;
+  margin: 0 auto;
+  white-space: nowrap
+}
+
+.sidebar ul li {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-left: 20px;
+  border-bottom: ;
+}
+.sidebar ul li a {
+  padding: 0;
+  color: #333;
+}
+.sidebar ul li a:hover{
+  background: transparent;
+  color: #e92;
+}
+.sidebar ul li a.active {
+  background-color: ;
+}
+
+.centered {
+  float: none;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+.projectbox {
+  text-align: center;
+}
+}
+
+.projectbox {
+  margin: 10px 0px;
+}
+
+.projectboxContent {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.projectboxContent h3 {
+  margin-top: 10px;
+}
